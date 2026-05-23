@@ -7,14 +7,17 @@ from inventor import Inventor, NUM_MOTORS, MOTOR_A, MOTOR_B, LED_GP0, LED_SERVO_
 A demonstration of driving both of Inventor 2040/2350 W's motor outputs between
 positions, with the help of their attached encoders and PID control.
 
+Motor data:
+https://shop.pimoroni.com/products/micro-metal-gearmotor-with-micro-metal-motor-encoder?variant=39888597614675
+
 Press "User" to exit the program.
 """
 
 ENCODER_NAMES = ["A", "B"]
 
-GEAR_RATIO = 150                        # The gear ratio of the motors, was 50
+GEAR_RATIO = 50							# The gear ratio of the motors
 
-SPEED_SCALE = 4.4                       # The scaling to apply to each motor's speed to match its real-world speed, was 5.4
+SPEED_SCALE = 5.4                       # The scaling to apply to each motor's speed to match its real-world speed
 
 UPDATES = 100                           # How many times to update the motor per second
 UPDATE_RATE = 1 / UPDATES
