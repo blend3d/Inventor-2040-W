@@ -1,3 +1,11 @@
+# ---------------------
+# Simplest motor control
+# No logic to keep the robot straight
+#  
+# The table and plot shows the motors diverging in speeds
+# In my case the Left motor is approx 10% slower 
+# ---------------------
+
 import time
 from inventor import Inventor, MOTOR_A, MOTOR_B
 from pimoroni import REVERSED_DIR
