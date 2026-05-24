@@ -1,14 +1,21 @@
+# -----------------------------
+# Cycles RGB Leds through color spectrum
+# -----------------------------
 from inventor import Inventor2040W, NUM_LEDS
-from machine import I2C
-# from vl53l1x import VL53L1X
 import time
 
 board = Inventor2040W()
 
+# -----------------------------
+# Initial Setup Values
+# -----------------------------
 BRIGHTNESS = 0.2
 UPDATES = 50
 SPEED = 20
 
+# -----------------------------
+# Main LED Test Loop
+# -----------------------------
 def led_test(cycles):
     global offset, SPEED, BRIGHTNESS, NUM_LEDS
     offset = 0.0
@@ -23,5 +30,8 @@ def led_test(cycles):
         time.sleep_ms(1000 // UPDATES)
     # Turn off the LED bars
     board.leds.clear()
-    
+
+# -----------------------------
+# MAIN PROGRAM
+# -----------------------------
 led_test(1000)
