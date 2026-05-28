@@ -19,7 +19,7 @@ try:
 finally:
     # Exit "pass" loop, print message, and insert time delay for switch bounce to settle
     print("USER button pressed, starting code...")
-    # time.sleep(0.4)		# Time delay of 0.4 seconds
+    time.sleep(0.4)		# Time delay of 0.4 seconds
 
 #---------------------------------
 # Run code until the user button is pressed
