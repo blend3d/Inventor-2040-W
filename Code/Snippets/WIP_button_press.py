@@ -24,7 +24,8 @@ finally:
 try:
     # Run code until the user button is pressed
     while not board.switch_pressed():
-        print(board.encoder_a.capture())
+        print(board.encoder_a.capture.revolutions_per_second())
+        #print("Speed =", capture.revolutions_per_second)
 
 finally:
     # Run Code and Exit
