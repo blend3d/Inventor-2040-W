@@ -16,7 +16,7 @@ import machine
 import time
 
 # -----------------------------
-# Settings
+# Settings for motors
 # -----------------------------
 GEAR_RATIO = 50
 BASE_SPEED = 0.4			# Motor speed at 40%
@@ -61,10 +61,10 @@ class ButtonHandler:
                 if self.on_release:
                     self.on_release()
 
+
 # -----------------------------
 # SMARS Program Start/Stop Logic
 # -----------------------------
-board = Inventor()
 led = machine.Pin("LED", machine.Pin.OUT)
 
 running = False   # Robot starts in IDLE mode

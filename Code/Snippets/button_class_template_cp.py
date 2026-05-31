@@ -1,33 +1,6 @@
-# ------------------------------
-# using the USER button as a start/stop toggle for your SMARS robot
-#
-# Simplest straight‑line correction loop
-# Uses the minimum added logic to keep the robot straight
-# Does not use PID (proportional–integral–derivative) code
-# No complicated math, just proportional correction
-# Works well for SMARS + N20 motors
-# 
-# The table and plot shows the motors being corrected to have similar speeds 
-# ------------------------------
-
-from inventor import Inventor, MOTOR_A, MOTOR_B
-from pimoroni import REVERSED_DIR
+from inventor import Inventor
 import machine
 import time
-
-# -----------------------------
-# Settings
-# -----------------------------
-GEAR_RATIO = 50
-BASE_SPEED = 0.4			# Motor speed at 40%
-SLEEP = 0.1					# 0.1 sec (100 ms)
-CORRECTION_GAIN = 0.2     	# How strongly to correct speed differences
-
-board = Inventor(motor_gear_ratio=GEAR_RATIO)
-
-# Reverse left motor + encoder so forward means forward
-board.motors[MOTOR_A].direction(REVERSED_DIR)
-board.encoders[MOTOR_A].direction(REVERSED_DIR)
 
 # -----------------------------
 # Button Handler Class
@@ -60,6 +33,7 @@ class ButtonHandler:
             else:
                 if self.on_release:
                     self.on_release()
+
 
 # -----------------------------
 # SMARS Program Start/Stop Logic
