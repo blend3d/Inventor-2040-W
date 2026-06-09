@@ -1,5 +1,5 @@
 # ------------------------------
-# using the USER button as a start/stop toggle for your SMARS robot
+# Using the USER button as a start/stop toggle for your SMARS robot
 #
 # Simplest straight‑line correction loop
 # Uses the minimum added logic to keep the robot straight
