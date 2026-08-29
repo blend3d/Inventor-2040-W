@@ -34,5 +34,5 @@ def led_test(cycles):
 # -----------------------------
 # MAIN PROGRAM
 # -----------------------------
-led_test(300)
+led_test(400)
 
