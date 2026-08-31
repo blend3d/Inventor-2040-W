@@ -16,7 +16,7 @@ from pimoroni import REVERSED_DIR
 GEAR_RATIO = 50
 BASE_SPEED = 0.4			# Motor speed at 40%
 SLEEP = 0.1					# 0.1 sec (100 ms)
-CORRECTION_GAIN = 0.2     	# How strongly to correct speed differences
+CORRECTION_GAIN = 0.175     	# How strongly to correct speed differences
 
 board = Inventor(motor_gear_ratio=GEAR_RATIO)
 
@@ -42,7 +42,7 @@ try:
         left = board.encoders[MOTOR_A].capture().revolutions_per_second
         right = board.encoders[MOTOR_B].capture().revolutions_per_second
 
-        print(f"LEFT={left:.3f}, RIGHT={right:.3f}")
+        print(f"LEFT = {left:.2f}   RIGHT = {right:.2f}   DELTA = {left-right:.2f}")
 
         # Compute difference
         error = left - right
