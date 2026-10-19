@@ -13,5 +13,6 @@ There are only simple code snippets for test at the moment, but I am currently w
     Remote control via web or mobile phone
     And Whatever else comes to mind!
 
-Please see the build guide in the parts and build folder. All STLs that are customized from the original SMARS are in the STL folder.
+Please see the build guide in the "Build and Part Info" folder for additional info. All STLs that were customized from the original SMARS are in the STL folder.
 
+Enjoy!
