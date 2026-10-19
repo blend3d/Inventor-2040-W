@@ -1,7 +1,10 @@
 # Inventor 2040 W
 Pimoroni Inventor 2040 W based SMARS
 
-There are only simple code snippets for test at the moment. I am currently working towards having SMARS navigate based on a TOF sensor. Eventually I intend to add an OLED display, photovore behavior, and wi-fi connectivity. Here is an idea list for adding more functionality to SMARS in the future:
+<img width="620" height="480" alt="image" src="https://github.com/user-attachments/assets/0381efa4-123d-4282-8e53-7b4eb6400c9b" />
+
+
+There are only simple code snippets for test at the moment, but I am currently working towards having SMARS navigate based on a TOF sensor. Eventually I intend to add an OLED display, photovore behavior, and wi-fi connectivity. Here is an idea list for adding additional functionality to SMARS in the future:
     
     RGB LED status indication
     PIR sensor for hide or seek Behavior
@@ -10,6 +13,5 @@ There are only simple code snippets for test at the moment. I am currently worki
     Remote control via web or mobile phone
     And Whatever else comes to mind!
 
-
-<img width="1215" height="938" alt="image" src="https://github.com/user-attachments/assets/893179cb-c0fc-405f-9eb5-46c64024df4f" />
+Please see the build guide in the parts and build folder. All STLs that are customized from the original SMARS are in the STL folder.
 
