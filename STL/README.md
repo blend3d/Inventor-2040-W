@@ -8,6 +8,8 @@ For the remainder of the parts such as wheels and tracks please see:
 
 A big thank you to Kevin Thomas the original creator of the SMARS and Kevin Mcaleer for his adaption of the Inventor 2040 W to SMARS. Both of which inspired this version.
 
+<img width="800" height="600" alt="image" src="https://github.com/user-attachments/assets/87761413-08ca-4050-a3a4-62be522486ee" />
+
 <img width="800" height="600" alt="image" src="https://github.com/user-attachments/assets/5aa23597-d88f-4314-b491-490dce3e7420" />
 
 <img width="800" height="600" alt="image" src="https://github.com/user-attachments/assets/853c6d09-36fe-43ad-b601-e9fad6d6a491" />
