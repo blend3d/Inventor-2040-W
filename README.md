@@ -9,7 +9,7 @@ The “Code” folder contains several MicroPython test and demo files, plus a b
 
 Planned improvements:
     
-    PID-based motion control for more precise, predictable movemen
+    PID-based motion control for more precise, predictable movement
     OLED display for feedback
     LDRs for photovore (light-seeking) behavior
 
